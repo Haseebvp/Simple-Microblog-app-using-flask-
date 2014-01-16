@@ -1,0 +1,16 @@
+<html>
+<head><title>my blog app</title>
+
+<h1>Welcome to flask blog-app</h1>
+
+</head>
+<body>
+<a href='/home'>home</a>
+<a href='/post'>post</a>
+<a href='/logout'>logout</a>
+</body>
+
+{% block content %}
+{% endblock %}
+
+</html>

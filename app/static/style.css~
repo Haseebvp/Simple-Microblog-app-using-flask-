@@ -1,0 +1,8 @@
+
+body { background-image:url('test.jpg');
+  font: normal .80em 'Droid Sans', arial, sans-serif;
+  background: #F9F9F9;
+  color: #FFF;
+}
+
+

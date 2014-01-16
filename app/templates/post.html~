@@ -1,0 +1,17 @@
+{% extends "welcome1.html"%}
+{% block content %}
+<head><title>post</title>
+<h1>post your ideas here!!!</h1>
+<form action={{ url_for ('submit') }} method=post>
+<div align="center">
+<p>Title:</p><input type="text" name="title"><br>
+<p>Post:</p><textarea name="post" cols="30" rows="20">
+</textarea>
+
+<input type="submit" name="post">
+</div>
+</form>
+</head>
+{% endblock %}
+
+

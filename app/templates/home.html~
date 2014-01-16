@@ -1,0 +1,20 @@
+{% extends "base.html"%}
+{% block content %}
+
+<head><title>home</title></head>
+<body><header>
+      <div class="container">
+        
+          <h1 class="logo">Posts</h1></header></body>
+{% for j in value %}
+<h1>{{ j.title }}</h1>
+<p>{{ j.post }}</p>
+
+
+
+{% endfor %}
+{% endblock %}
+
+
+
+
